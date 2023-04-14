@@ -71,7 +71,7 @@
       </center>
 
       <!-- Body text -->
-      <p>Please fill in the form below to indicate the amount of money in Canadian Dollars (CAD) that you would like to convert.</p>
+      <?php echo "<p>Please fill in the form below to indicate the amount of money in Canadian Dollars (CAD) that you would like to convert.</p>" ?>
   
       <!-- User input form -->
       <form action="./calculations.php" method="post" target="result">
