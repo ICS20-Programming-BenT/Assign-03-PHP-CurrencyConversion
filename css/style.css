@@ -1,0 +1,36 @@
+/* Created by: Ben Thomson
+* Created on: 04/04/2023
+* This CSS file defines the style for index.html
+* ICS2O-Unit3-04-PHP-FarenheitCelsius
+*/
+
+body {
+  background-color: rgb(255 205 178);
+  font-weight: 900;
+  color: gray;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: hsl(358deg 60% 75%);
+  padding: 40px;
+  text-align: center;
+}
+
+form {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  background-color: #ffb4a2;
+  padding: 20px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  background-color: #ffb4a2;
+  padding: 20px;
+}
+
+#result {
+  background-color: #ffb4a2;
+}
