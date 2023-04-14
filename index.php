@@ -34,7 +34,7 @@
       <!-- Web page heading and body text -->
       <?php
         echo "<h1>Currency Conversions in PHP</h1>";
-        echo "<p>All travellers have experienced one major problem at least once, not knowing how to convert the currency of their home country to the currency of the country they are visiting. If you are planning to take a vacation to the United Kingdom, the European Union, or any of their associated overseas territories, I strongly encourage you to make use of this web page, which will convert Canadian Dollars (CAD) to British pounds sterling (GBP) and Euros (EUR).</p>";
+        echo "<p>All travelers have experienced one major problem at least once, not knowing how to convert the currency of their home country to the currency of the country they are visiting. If you are planning to take a vacation to the United Kingdom, the European Union, or any of their associated overseas territories, I strongly encourage you to make use of this web page, which will convert Canadian Dollars (CAD) to British pounds sterling (GBP) and Euros (EUR).</p>";
         ?>
   
       <!-- Image -->

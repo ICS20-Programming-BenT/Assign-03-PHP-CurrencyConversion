@@ -11,4 +11,4 @@
 ?>
 
 <h3>Results:</h3>
-The value of your money in British pounds sterling is £<?php echo "$britishPoundsRounded" ?>, and the the value in Euros is €<?php echo "$amountEurosRounded" ?>.
+The value of your money in British pounds sterling is £<?php echo "$britishPoundsRounded" ?>, and the value in Euros is €<?php echo "$amountEurosRounded" ?>.
