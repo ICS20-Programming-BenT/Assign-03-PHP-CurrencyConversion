@@ -31,11 +31,11 @@
     <!-- Container for web page content -->
     <main style = "padding-left:20px; padding-right:20px;">
     
-  	  <!-- Web page heading and body text -->
+      <!-- Web page heading and body text -->
       <?php
-  		  echo "<h1>Currency Conversions in PHP</h1>";
-  		  echo "<p>All travellers have experienced one major problem at least once, not knowing how to convert the currency of their home country to the currency of the country they are visiting. If you are planning to take a vacation to the United Kingdom, the European Union, or any of their associated overseas territories, I strongly encourage you to make use of this web page, which will convert Canadian Dollars (CAD) to British pounds sterling (GBP) and Euros (EUR).</p>";
-  	  ?>
+        echo "<h1>Currency Conversions in PHP</h1>";
+        echo "<p>All travellers have experienced one major problem at least once, not knowing how to convert the currency of their home country to the currency of the country they are visiting. If you are planning to take a vacation to the United Kingdom, the European Union, or any of their associated overseas territories, I strongly encourage you to make use of this web page, which will convert Canadian Dollars (CAD) to British pounds sterling (GBP) and Euros (EUR).</p>";
+      ?>
   
       <!-- Image -->
       <center>
@@ -73,7 +73,7 @@
       <!-- Body text -->
       <p>Please fill in the form below to indicate the amount of money in Canadian Dollars (CAD) that you would like to convert.</p>
   
-  	  <!-- User input form -->
+      <!-- User input form -->
       <form action="./calculations.php" method="post" target="result">
         <label for="amount-canadian-dollars">Amount of money in Canadian Dollars (CAD):</label>
         <input type="number" step="0.01" min="0" id="amount-canadian-dollars" placeholder="Canadian Dollars..." name="amount-canadian-dollars"><br><br>
@@ -85,8 +85,8 @@
       <br>
 
       <!-- iframe for the results to show on the web page. -->
-  	  <iframe id="result" name="result">
-  	  </iframe>
+      <iframe id="result" name="result">
+      </iframe>
       <br>
       <br>
     </main>
